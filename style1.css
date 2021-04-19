@@ -1,0 +1,28 @@
+*{ margin:0;
+
+}
+h1{
+    margin-top: 0;
+}
+.top-container{
+    background-color:rgb(185, 234, 238);
+    
+    height: 200px;
+    width: 200px;
+    
+}
+.middle-container{
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    background-color:red;
+}
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    margin-left: 400px;
+    background-color: blue;
+}
+.card{
+    background: inherit;
+}

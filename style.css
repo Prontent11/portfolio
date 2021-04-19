@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.header{
+    padding: 3% 10%;
+  /* background-color: #95e1d3; */
+  background-image:url("https://images.pexels.com/photos/2569997/pexels-photo-2569997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=1080");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  font-size: 20px;
+  width: auto;
+}
+.mainhead{
+    padding:15%;
+    color: aliceblue;
+}
+.mainhead >h1{
+    
+    font-size: 70px;
+}
+.abouttext{
+    padding: 5%;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    font-size: 20px;
+}
+.navcol{
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.carousel{
+    box-shadow: 0.7rem 0.7rem 0.7rem 0.7rem rgba(0,0,0,0.4rem);
+}
+.aboutus{
+    padding: 5% 10% ;
+    
+}
+.row{
+    padding-top: 5%;
+}
+.blog{
+    padding: 3% 10% ;
+    background-color: #95e1d3;
+    background: url("https://images.pexels.com/photos/2330137/pexels-photo-2330137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1080") no-repeat center center fixed;
+    background-size: cover;
+}
+.blog > h1{
+    color: white;
+    padding-bottom: 3%;
+}
+.contactus{
+    padding: 3% 25%;
+}
+.contact >h1{
+    
+    padding-bottom: 5%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3% 10%;
+}
+.card{
+    margin-top: 15px;
+    margin: 15px auto auto auto;
+}
+
+.imgcenter{
+    display: inline-block;
+    /* margin-top: 50px; */
+    margin: auto;
+}
+
+.skills{
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.1);
+    width: 100%;
+    background-color: #0101;
+    margin-top: 10%;
+    font-size: 20px;
+    border-radius: 25px;
+    /* border: 1px groove; */
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+span{
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+}
+.html{
+    text-align: center;
+    
+    width: 70%;
+    animation: html 3s ;
+ 
+    border-radius: 25px;
+    background-color: #ff9f68;
+ 
+}
+.css{
+    text-align: center;
+    width: 50%;
+  border-radius: 25px;
+    animation: css 3s ;
+    background-color: #2f89fc;
+    
+}
+.python{
+    border-radius: 25px;
+    text-align: center;
+    
+    width: 80%;
+    background-color: #6b48ff;
+    animation: python 3s ;
+}
+.javascript{
+    width: 55%;
+    border-radius: 25px;
+    text-align: center;
+    animation: javascript 3s  ;
+    background-color: #ffd615;
+}
+
+
+@keyframes html {
+    to{
+        width: 70%;
+        background-color: #ff9f68;
+        
+    }
+    from {
+        width: 0;
+    }
+}
+
+@keyframes css {
+    to{
+        width: 50%;
+        background-color: #2f89fc;
+    }
+    from {
+        width: 0;
+    }
+}
+@keyframes javascript {
+    to{
+        width: 55%;
+    background-color: #ffd615;
+    }
+    from {
+        width: 0;
+    }
+}
+@keyframes python {
+    to{
+        width: 80%;
+        background-color: #6b48ff;
+    }
+    from {
+        width: 0;
+    }
+}
+
+.skill_bar{
+    padding: 5% 25%;
+}
+.card{
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    color: white;
+    font-weight: 500;
+    transition: 1s ease;
+    /* box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(156, 155, 155, 0.2); */
+}
+.card:hover{
+   
+        transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+   
+   
+}
+.card-btn{
+    border: 1px solid white;
+     background-color: rgba(255, 255, 255, 0.2);
+     color: white;
+    
+}
+.card-btn:hover{
+    color: black;
+    background-color: #fff;
+}
+.card-btn:focus{
+    outline: none;
+}
+
+@media (min-width: 320px) and ( max-width:700px) {
+
+    .mainhead >h1{
+    
+        font-size: 40px;
+    }
+    .mainhead >h3{
+        font-size: 20px;
+    }
+    .imgabt{
+        height: 250px;
+        width: 250px;
+    }
+    
+
+}
+
+  /* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
+
